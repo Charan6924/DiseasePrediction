@@ -45,23 +45,6 @@ A key focus of this project is the integration of **Hadoop MapReduce** to parall
 
 ---
 
-## Repository Structure
-
-```
-├── data/
-│   ├── raw/                  # Original dataset
-│   └── processed/            # Cleaned and preprocessed data
-├── notebooks/
-│   ├── eda.ipynb             # Exploratory data analysis
-│   └── modeling.ipynb        # Model training and evaluation
-├── src/
-│   ├── preprocessing/        # Feature selection, normalization
-│   ├── mapreduce/            # Hadoop MapReduce jobs
-│   └── models/               # Model implementations
-├── results/                  # Evaluation outputs and figures
-├── requirements.txt
-└── README.md
-```
 
 ---
 
