@@ -30,10 +30,11 @@ A key focus of this project is the integration of **Hadoop MapReduce** to parall
 ### 2. Parallel Computing
 - Hadoop MapReduce for distributed preprocessing and feature engineering
 
-### 3. Models Evaluated
+### 3. Models to Evaluate
 | Model | Type |
 |---|---|
 | Logistic Regression | Baseline |
+| K-Nearest Neighbors | Distance-Based |
 | Random Forest | Ensemble |
 | XGBoost | Ensemble |
 | Neural Network | Deep Learning |
