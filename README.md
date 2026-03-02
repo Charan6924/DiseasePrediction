@@ -1,9 +1,9 @@
-# 🩺 Diabetes Prediction with Machine Learning
+# Diabetes Prediction with Machine Learning
 > Leveraging the CDC BRFSS dataset and parallel computing to build scalable, generalizable diabetes prediction models.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project investigates the use of machine learning to predict diabetes risk using the **CDC Behavioral Risk Factor Surveillance System (BRFSS)** dataset, sourced from Kaggle. Unlike commonly used datasets such as the PIMA Indians Diabetes Database (768 rows), the BRFSS dataset contains hundreds of thousands of real-world records, enabling more generalizable models and making distributed computing techniques viable.
 
@@ -11,7 +11,7 @@ A key focus of this project is the integration of **Hadoop MapReduce** to parall
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source**: [CDC BRFSS Dataset on Kaggle](https://www.kaggle.com/)
 - **Size**: ~250,000+ records
@@ -20,7 +20,7 @@ A key focus of this project is the integration of **Hadoop MapReduce** to parall
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 - Feature selection
@@ -44,7 +44,7 @@ A key focus of this project is the integration of **Hadoop MapReduce** to parall
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── data/
@@ -64,7 +64,7 @@ A key focus of this project is the integration of **Hadoop MapReduce** to parall
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/your-repo/diabetes-prediction.git
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Literature Review Summary
+## Literature Review Summary
 
 Over 9 papers were reviewed. Key findings:
 - Most studies rely on the PIMA Indians Diabetes Database
@@ -83,14 +83,18 @@ Over 9 papers were reviewed. Key findings:
 
 ---
 
-## 👥 Team
+## Team
 
 | Member | Role |
 |---|---|
-| TBD | TBD |
+| Wyatt | Literature Review |
+| Owen | Data Collection & Preprocessing |
+| Charan | ML Model Implementation |
+| Luke | Parallel Computing Implementation |
+| Cameron | Results, Visualizations & Discussion |
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic purposes.
