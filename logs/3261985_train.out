@@ -1,8 +1,0 @@
-   DIABETE3  BPHIGH4  TOLDHI2  CVDINFR4  ...  EDUCA  INCOME2  HLTHPLN1  year
-0         0        1        1         2  ...      4        4         1  2011
-1         0        1        2         2  ...      6        5         1  2011
-2         0        1        2         2  ...      3        1         1  2011
-3         0        3        2         2  ...      6        7         1  2011
-4         0        1        2         2  ...      5        6         1  2011
-
-[5 rows x 17 columns]
