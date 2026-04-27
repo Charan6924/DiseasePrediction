@@ -1,0 +1,54 @@
+=== Spark sweep ===
+Started: Sun Apr 26 19:55:48 EDT 2026
+Node:    classct015
+--- Spark local[1]: Logistic_Regression ---
+Accuracy      : 0.8672
+Recall        : 0.1740
+F1 Score      : 0.2659
+Wall-clock time: 12.17s
+
+--- Spark local[2]: Logistic_Regression ---
+Accuracy      : 0.8672
+Recall        : 0.1740
+F1 Score      : 0.2659
+Wall-clock time: 6.85s
+
+--- Spark local[4]: Logistic_Regression ---
+Accuracy      : 0.8672
+Recall        : 0.1740
+F1 Score      : 0.2659
+Wall-clock time: 5.29s
+
+--- Spark local[1]: Random_Forest ---
+Accuracy      : 0.9697
+Recall        : 0.8332
+F1 Score      : 0.8836
+Wall-clock time: 117.92s
+
+--- Spark local[2]: Random_Forest ---
+Accuracy      : 0.9697
+Recall        : 0.8332
+F1 Score      : 0.8836
+Wall-clock time: 146.87s
+
+--- Spark local[4]: Random_Forest ---
+
+--- Spark local[1]: XGBoost ---
+Accuracy      : 0.8711
+Recall        : 0.1929
+F1 Score      : 0.2926
+Wall-clock time: 19.14s
+
+--- Spark local[2]: XGBoost ---
+Accuracy      : 0.8711
+Recall        : 0.1929
+F1 Score      : 0.2926
+Wall-clock time: 15.79s
+
+--- Spark local[4]: XGBoost ---
+Accuracy      : 0.8711
+Recall        : 0.1929
+F1 Score      : 0.2926
+Wall-clock time: 26.48s
+
+=== Sweep complete: Sun Apr 26 20:03:18 EDT 2026 ===

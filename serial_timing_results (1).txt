@@ -1,0 +1,28 @@
+
+=== Serial baseline run (2026-04-26 17:32:09) ===
+Dataset: data/brfss_diabetes_clean.csv  (922,356 rows)
+Model                   Accuracy  Precision  Recall      F1   Time(s)
+---------------------------------------------------------------------
+  XGBoost                 0.7315     0.3161  0.8098  0.4547      0.40
+---------------------------------------------------------------------
+
+=== Serial baseline run (2026-04-26 19:36:31) ===
+Dataset: data/brfss_diabetes_clean.csv  (922,356 rows)
+Model                   Accuracy  Precision  Recall      F1   Time(s)
+---------------------------------------------------------------------
+  Logistic_Regression     0.8672     0.5638  0.1740  0.2659      0.12
+---------------------------------------------------------------------
+
+=== Serial baseline run (2026-04-26 19:37:38) ===
+Dataset: data/brfss_diabetes_clean.csv  (922,356 rows)
+Model                   Accuracy  Precision  Recall      F1   Time(s)
+---------------------------------------------------------------------
+  Random_Forest           0.9697     0.9406  0.8332  0.8836     54.04
+---------------------------------------------------------------------
+
+=== Serial baseline run (2026-04-26 19:37:50) ===
+Dataset: data/brfss_diabetes_clean.csv  (922,356 rows)
+Model                   Accuracy  Precision  Recall      F1   Time(s)
+---------------------------------------------------------------------
+  XGBoost                 0.8711     0.6060  0.1929  0.2926      1.60
+---------------------------------------------------------------------

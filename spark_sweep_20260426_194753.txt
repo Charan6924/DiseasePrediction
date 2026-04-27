@@ -1,0 +1,29 @@
+=== Spark sweep ===
+Started: Sun Apr 26 19:47:54 EDT 2026
+Node:    classct015
+Dataset: data/brfss_diabetes_clean.csv (922357 lines)
+
+Serial baselines (from prior run, login node):
+  Logistic_Regression  0.12s
+  Random_Forest       54.04s
+  XGBoost              1.60s
+
+--- Spark local[1]: Logistic_Regression ---
+
+--- Spark local[2]: Logistic_Regression ---
+
+--- Spark local[4]: Logistic_Regression ---
+
+--- Spark local[1]: Random_Forest ---
+
+--- Spark local[2]: Random_Forest ---
+
+--- Spark local[4]: Random_Forest ---
+
+--- Spark local[1]: XGBoost ---
+
+--- Spark local[2]: XGBoost ---
+
+--- Spark local[4]: XGBoost ---
+
+=== Sweep complete: Sun Apr 26 19:48:11 EDT 2026 ===
